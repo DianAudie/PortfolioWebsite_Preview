@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="head-background">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DianAudie-Portfolio-Preview</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="card">
+    <button class="mail">
+      <i class="fa-regular fa-envelope"></i>
+    </button>
+    <div class="profile">
+      <img src="C:\Users\diana\OneDrive\Pictures\Grad-Picture.jpg" alt="Pic">
+      <div class="content">
+        <span class="name">Dian Audie</span>
+        <span class="about">I am Dian, I love to code.</span>
+      </div>
+      <div class="bottom">
+        <div class="social-links">
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#">
+            <FontAwesomeIcon :icon="byPrefixAndName.fab['facebook']" />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon :icon="byPrefixAndName.fab['whatsapp']" />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon :icon="byPrefixAndName.fas['phone']" />
+          </a>
+        </div>
+        <button class="button">Contact me</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
